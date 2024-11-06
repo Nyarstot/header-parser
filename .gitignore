@@ -27,7 +27,7 @@
 *.out
 *.app
 
-build
+[bB]uild
 Debug
 RelWithDebInfo
 Win32
@@ -52,3 +52,5 @@ CMakeFiles
 # CLion files
 cmake-build-*/
 .idea
+
+!Premake5/premake5.exe
