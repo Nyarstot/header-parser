@@ -2,14 +2,14 @@ print(os.date() .. " Initialize submodules...")
 os.execute("git submodule update --init --recursive")
 
 
-workspace "HeaderParser"
+workspace "header-parser"
     architecture "x64"
-    startproject "HeaderParser"
+    startproject "header-parser"
     configurations {"Debug", "Release"}
 
     buildpattern = "%{cfg.buildcfg}.%{cfg.system}.%{cfg.architecture}"
 
-    project "HeaderParser"
+    project "header-parser"
         kind "ConsoleApp"
         language "C++"
         cppdialect "C++17"
